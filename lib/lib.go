@@ -111,3 +111,11 @@ func CombCnt(all int, selected int) int {
 	}
 	return a / b
 }
+
+func Fact(n int) int {
+	res := 1
+	for i := n; i > 0; i-- {
+		res *= i
+	}
+	return res
+}
